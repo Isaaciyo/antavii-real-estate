@@ -2,17 +2,21 @@ import "./navbar.scss";
 import { useState } from "react";
 import { Link } from "react-router";
 
-function Navbar({ isUser }) {
+function Navbar() {
   const [open, setOpen] = useState(false);
 
-  isUser = true;
+  const [isUser, setIsUser] = useState(false);
+
+  const toggleUser = () => {
+    setIsUser((prev) => !prev);
+  };
 
   return (
     <nav className="navbar">
       <div className="left">
         <Link to="/" className="logo">
           <img src="/logo.png" alt="Logo" />
-          <span>LamaEstate</span>
+          <span>AntaviiEstate</span>
         </Link>
         <Link to="/">Home</Link>
         <Link to="/">About</Link>
@@ -31,10 +35,15 @@ function Navbar({ isUser }) {
               <div className="notification">3</div>
               <span>Profile</span>
             </Link>
+            <Link to="/" className="sign-out" onClick={toggleUser}>
+              <span>Sign Out</span>
+            </Link>
           </div>
         ) : (
           <>
-            <Link to="/">Sign in</Link>
+            <Link to="/profile" onClick={toggleUser}>
+              Sign in
+            </Link>
             <Link to="/" className="register">
               Sign up
             </Link>

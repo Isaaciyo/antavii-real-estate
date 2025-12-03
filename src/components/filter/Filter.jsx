@@ -1,5 +1,6 @@
 import React from "react";
 import "./filter.scss";
+import { Link } from "react-router";
 
 export default function Filter() {
   return (
@@ -54,9 +55,11 @@ export default function Filter() {
           <label htmlFor="city">Bedrooms</label>
           <input type="text" id="city" name="city" placeholder="Any" />
         </div>
-        <button>
-          <img src="/search.png" alt="" />
-        </button>
+        <Link>
+          <button>
+            <img src="/search.png" alt="" />
+          </button>
+        </Link>
       </div>
     </div>
   );
