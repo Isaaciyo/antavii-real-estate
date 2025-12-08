@@ -46,7 +46,7 @@ export default function SearchBar() {
           placeholder="Max Price"
         />
         <button>
-          <img src="/search.png" alt="" />
+          <img src="/antavii-real-estate/search.png" alt="" />
         </button>
       </form>
     </div>

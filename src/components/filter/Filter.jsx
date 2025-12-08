@@ -57,7 +57,7 @@ export default function Filter() {
         </div>
         <Link>
           <button>
-            <img src="/search.png" alt="" />
+            <img src="/antavii-real-estate/search.png" alt="" />
           </button>
         </Link>
       </div>

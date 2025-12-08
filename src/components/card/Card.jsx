@@ -13,7 +13,7 @@ export default function Card({ item }) {
           <Link to={`/${item.id}`}>{item.title}</Link>
         </h2>
         <p className="address">
-          <img src="/pin.png" alt="" />
+          <img src="/antavii-real-estate/pin.png" alt="" />
           <span>{item.address}</span>
         </p>
         <p className="price">$ {item.price}</p>
@@ -21,7 +21,7 @@ export default function Card({ item }) {
         <div className="bottom">
           <div className="features">
             <div className="feature">
-              <img src="/bed.png" alt="" />
+              <img src="/antavii-real-estate/bed.png" alt="" />
               <span>{item.bedroom} bedroom</span>
             </div>
             <div className="feature">
@@ -31,10 +31,10 @@ export default function Card({ item }) {
           </div>
           <div className="icons">
             <div className="icon">
-              <img src="/save.png" alt="" />
+              <img src="/antavii-real-estate/save.png" alt="" />
             </div>
             <div className="icon">
-              <img src="/chat.png" alt="" />
+              <img src="/antavii-real-estate/chat.png" alt="" />
             </div>
           </div>
         </div>

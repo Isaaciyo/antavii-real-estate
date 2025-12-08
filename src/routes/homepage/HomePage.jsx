@@ -1,6 +1,6 @@
 import React from "react";
 import "./homePage.scss";
-import SearchBar from "../../components/searchBar/searchBar.jsx";
+import SearchBar from "../../components/searchBar/SearchBar.jsx";
 
 export default function HomePage() {
   return (
@@ -33,7 +33,11 @@ export default function HomePage() {
       </div>
 
       <div className="imageContainer">
-        <img src="/bg.png" alt="background" className="backgroundImage" />
+        <img
+          src="/antavii-real-estate/bg.png"
+          alt="background"
+          className="backgroundImage"
+        />
       </div>
     </div>
   );

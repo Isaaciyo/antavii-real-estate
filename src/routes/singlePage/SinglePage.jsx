@@ -15,7 +15,7 @@ export default function SinglePage() {
               <div className="post">
                 <h1>{singlePostData.title}</h1>
                 <div className="address">
-                  <img src="/pin.png" alt="" />
+                  <img src="/antavii-real-estate/pin.png" alt="" />
                   <span>{singlePostData.address}</span>
                 </div>
                 <div className="price">$ {singlePostData.price}</div>
@@ -34,21 +34,21 @@ export default function SinglePage() {
           <p className="title">General</p>
           <div className="listVertical">
             <div className="feature">
-              <img src="/utility.png" alt="" />
+              <img src="/antavii-real-estate/utility.png" alt="" />
               <div className="featureText">
                 <span>Utilities</span>
                 <p>Renter is responsible</p>
               </div>
             </div>
             <div className="feature">
-              <img src="/pet.png" alt="" />
+              <img src="/antavii-real-estate/pet.png" alt="" />
               <div className="featureText">
                 <span>Pet policy</span>
                 <p>Pets are Allowed</p>
               </div>
             </div>
             <div className="feature">
-              <img src="/fee.png" alt="" />
+              <img src="/antavii-real-estate/fee.png" alt="" />
               <div className="featureText">
                 <span>Property Fees</span>
                 <p>Must have 3x the rent in total household income</p>
@@ -58,36 +58,36 @@ export default function SinglePage() {
           <p className="title">Room Sizes</p>
           <div className="sizes">
             <div className="size">
-              <img src="/size.png" alt="" />
+              <img src="/antavii-real-estate/size.png" alt="" />
               <span>80 sqft</span>
             </div>
             <div className="size">
-              <img src="/bed.png" alt="" />
+              <img src="/antavii-real-estate/bed.png" alt="" />
               <span>2 beds</span>
             </div>
             <div className="size">
-              <img src="/bath.png" alt="" />
+              <img src="/antavii-real-estate/bath.png" alt="" />
               <span>1 bathroom</span>
             </div>
           </div>
           <p className="title">Nearby Places</p>
           <div className="listHorizontal">
             <div className="feature">
-              <img src="/school.png" alt="" />
+              <img src="/antavii-real-estate/school.png" alt="" />
               <div className="featureText">
                 <span>School</span>
                 <p>250m away</p>
               </div>
             </div>
             <div className="feature">
-              <img src="/bus.png" alt="" />
+              <img src="/antavii-real-estate/bus.png" alt="" />
               <div className="featureText">
                 <span>Bus Stop</span>
                 <p>100m away</p>
               </div>
             </div>
             <div className="feature">
-              <img src="/fee.png" alt="" />
+              <img src="/antavii-real-estate/fee.png" alt="" />
               <div className="featureText">
                 <span>Restaurant</span>
                 <p>200m away</p>
@@ -100,11 +100,11 @@ export default function SinglePage() {
           </div>
           <div className="buttons">
             <button>
-              <img src="/chat.png" alt="" />
+              <img src="/antavii-real-estate/chat.png" alt="" />
               Send a Message
             </button>
             <button>
-              <img src="/save.png" alt="" />
+              <img src="/antavii-real-estate/save.png" alt="" />
               Save the Place
             </button>
           </div>
