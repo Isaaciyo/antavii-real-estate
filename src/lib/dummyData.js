@@ -1,14 +1,16 @@
 export const listData = [
   {
     id: 1,
-    title: "A great Apartment Next to the Beach!",
-    img: ["https://images.pexels.com/photos/1239297/pexels-photo-1239297.jpeg"],
+    title: "A great Apartment Next to the Bayou!",
+    img: [
+      "https://lh3.googleusercontent.com/p/AF1QipMu_k-A0eASRNk1IeYKMifKostrC66ABZRJFSvr=s1360-w1360-h1020-rw",
+    ],
     bedroom: 2,
     bathroom: 1,
     price: 1000,
-    address: "456 Beach Road, Brighton",
-    latitude: 50.8205,
-    longitude: -0.1313,
+    address: "University of Louisiana Monroe, LA",
+    latitude: 32.5313,
+    longitude: -92.0687,
   },
   {
     id: 2,
