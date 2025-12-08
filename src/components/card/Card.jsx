@@ -25,7 +25,7 @@ export default function Card({ item }) {
               <span>{item.bedroom} bedroom</span>
             </div>
             <div className="feature">
-              <img src="/bath.png" alt="" />
+              <img src="/antavii-real-estate/bath.png" alt="" />
               <span>{item.bathroom} bathroom</span>
             </div>
           </div>

@@ -14,11 +14,12 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="left">
-        <Link to="/" className="logo">
+        <Link to="/antavii-real-estate" className="logo">
           <img src="/antavii-real-estate/logo.png" alt="Logo" />
           <span>AntaviiEstate</span>
         </Link>
-        <Link to="/">Home</Link>
+        {/* <Link to="/">Home</Link> */}
+        <Link to="/list">List</Link>
         <Link to="/">About</Link>
         <Link to="/">Contact</Link>
         <Link to="/">Agents</Link>
@@ -35,7 +36,11 @@ function Navbar() {
               <div className="notification">3</div>
               <span>Profile</span>
             </Link>
-            <Link to="/" className="sign-out" onClick={toggleUser}>
+            <Link
+              to="/antavii-real-estate"
+              className="sign-out"
+              onClick={toggleUser}
+            >
               <span>Sign Out</span>
             </Link>
           </div>
