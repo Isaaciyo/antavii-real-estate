@@ -19,7 +19,7 @@ function Navbar() {
           <span>AntaviiEstate</span>
         </Link>
         {/* <Link to="/">Home</Link> */}
-        <Link to="/list">List</Link>
+        <Link to="/antavii-real-estate/list">List</Link>
         <Link to="/">About</Link>
         <Link to="/">Contact</Link>
         <Link to="/">Agents</Link>
@@ -32,7 +32,7 @@ function Navbar() {
               alt=""
             />
             <span>John Doe</span>
-            <Link to="/profile" className="profile">
+            <Link to="/antavii-real-estate/profile" className="profile">
               <div className="notification">3</div>
               <span>Profile</span>
             </Link>
@@ -46,10 +46,10 @@ function Navbar() {
           </div>
         ) : (
           <>
-            <Link to="/profile" onClick={toggleUser}>
+            <Link to="/antavii-real-estate/profile" onClick={toggleUser}>
               Sign in
             </Link>
-            <Link to="/" className="register">
+            <Link to="/antavii-real-estate" className="register">
               Sign up
             </Link>
           </>

@@ -46,7 +46,7 @@ export default function SearchBar() {
           max={10000000}
           placeholder="Max Price"
         />
-        <Link className="search_link" to="/list">
+        <Link className="search_link" to="/antavii-real-estate/list">
           <button>
             <img src="/antavii-real-estate/search.png" alt="" />
           </button>

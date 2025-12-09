@@ -34,9 +34,9 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       { path: "/antavii-real-estate", element: <HomePage /> },
-      { path: "/list", element: <ListPage /> },
-      { path: "/:id", element: <SinglePage /> },
-      { path: "/profile", element: <ProfilePage /> },
+      { path: "/antavii-real-estate/list", element: <ListPage /> },
+      { path: "/antavii-real-estate/:id", element: <SinglePage /> },
+      { path: "/antavii-real-estate/profile", element: <ProfilePage /> },
     ],
   },
   // Add more routes here as needed
