@@ -9,10 +9,11 @@ export default function HomePage() {
         <div className="wrapper">
           <h1 className="title">Find Real Estate & Get Your Dream Home</h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
-            eaque rem necessitatibus, perferendis voluptatibus assumenda veniam.
-            Atque dicta explicabo dolorum ipsa impedit? Officiis provident
-            vitae, consectetur molestias ut aut vel.
+            Discover comfortable, secure living made truly accessible for
+            everyone. Our trusted housing network connects you with quality
+            homes at prices that fit your budget. Explore safe communities,
+            transparent listings, and supportive guidance at every step. Find
+            your place with confidence, comfort, and peace of mind.
           </p>
           <SearchBar />
           <div className="boxes">
