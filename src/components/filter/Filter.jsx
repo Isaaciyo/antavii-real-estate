@@ -55,11 +55,9 @@ export default function Filter() {
           <label htmlFor="city">Bedrooms</label>
           <input type="text" id="city" name="city" placeholder="Any" />
         </div>
-        <Link>
-          <button>
-            <img src="/antavii-real-estate/search.png" alt="" />
-          </button>
-        </Link>
+        <button>
+          <img src="/antavii-real-estate/search.png" alt="" />
+        </button>
       </div>
     </div>
   );
