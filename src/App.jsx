@@ -1,7 +1,7 @@
 // import ImageSlider from "./components/imageSlider/imageSlider.jsx";
 import HomePage from "./routes/homepage/HomePage.jsx";
 import Layout from "./routes/layout/Layout.jsx";
-import ListPage from "./routes/listPage/listPage.jsx";
+import ListPage from "./routes/listPage/ListPage.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router";
 import SinglePage from "./routes/singlePage/SinglePage.jsx";
 import ProfilePage from "./routes/profilePage/ProfilePage.jsx";
