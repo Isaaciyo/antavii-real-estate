@@ -15,7 +15,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="left">
         <Link to="/antavii-real-estate" className="logo">
-          <img src="/antavii-real-estate/logo.png" alt="Logo" />
+          <img src="/logo.png" alt="Logo" />
           <span>AntaviiEstate</span>
         </Link>
         {/* <Link to="/">Home</Link> */}
