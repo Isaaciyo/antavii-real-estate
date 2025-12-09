@@ -62,12 +62,13 @@ function Navbar() {
           />
         </div>
         <div className={open ? "menu active" : "menu"}>
-          <Link to="/">Home</Link>
+          <Link to="/antavii-real-estate">Home</Link>
+          <Link to="/antavii-real-estate/list">List</Link>
           <Link to="/">About</Link>
           <Link to="/">Contact</Link>
           <Link to="/">Agents</Link>
-          <Link to="/">Sign in</Link>
-          <Link to="/">Sign up</Link>
+          <Link to="/antavii-real-estate/profile">Sign in</Link>
+          <Link to="/antavii-real-estate">Sign up</Link>
         </div>
       </div>
     </nav>
